@@ -3,7 +3,7 @@ Created on 11 de set de 2017
 
 @author: gustavo.saquetta
 '''
-from abc import ABCMeta, abstractclassmethod, abstractmethod
+from abc import ABCMeta, abstractmethod
 
 class AbstractClass(metaclass=ABCMeta):
     def __init__(self):
